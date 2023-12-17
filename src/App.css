@@ -1,0 +1,248 @@
+
+
+.header{
+  width:100%;
+  height:40%;
+  background-color: white;
+}
+.icon{
+  display:none;
+}
+.logo{
+  margin-left: 30%;
+}
+.ullist{
+  display:flex;
+  list-style-type: none;
+  margin-left:28%;
+}
+.first{
+  width:10%;
+  height:14%;
+  background-color: brown;
+  color:white;
+  padding:8px;
+  text-align: center;
+}
+
+.grey{
+  width:10%;
+  height:14%;
+  background-color:grey;
+  color:white;
+  padding:8px;
+  text-align: center;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 450px; 
+  overflow: hidden; 
+  background-color: #f0f0f0;
+}
+
+.image-container {
+  position: relative;
+  width: 100%; 
+  height: 80%; 
+  margin: 0 auto;
+  text-align: center;
+  float: left; 
+}
+
+.image-container img {
+  width:40%;
+  /* max-height: 100%;  */
+  height:160%;
+  height: auto; 
+  display: inline-block; 
+  vertical-align: middle; 
+  object-fit: cover; 
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1; 
+}
+
+.prev-button {
+  margin-left:600px;
+  color:black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.next-button {
+  margin-left:-600px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.samlldiv{
+  background-color:#f0f0f0;
+  width:100%;
+  height:35px;
+}
+
+.textdiv{
+  background-color:#80173b;
+  width:100%;
+  height:250px;
+  margin-top: -20px;
+}
+.bigtext{
+  color:white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.firstpara{
+  color:white;
+  text-align: center;
+}
+.secondpara{
+  color:white;
+  text-align: center;
+}
+
+.buttonbody{
+  
+  border:1px solid white;
+  width:250px;
+  height:35px;
+  background-color:#80173b;
+  color: white;
+  margin: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+
+}
+.buttonbody:hover{
+  background-color: white;
+  color:#80173b;
+  font-weight: bold;
+}
+.buttonflex{
+  text-align: center;
+}
+
+.thirddiv{
+  text-align: center;
+  margin-top:40px;
+}
+
+.firstparatext{
+  color:#80173b;
+}
+.secondparatext{
+ color:rgb(111, 111, 111);
+}
+.thirdparatext{
+  color:rgb(109, 109, 109);
+}
+
+@keyframes example1 {
+  from{transform: translateY(0px);}
+  to{transform: translateY(-12px);}
+}
+.thirddiv{
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 30;
+}
+
+.headingpara{
+  color:#80173b;
+
+}
+.addresspara1{
+  color:rgb(97, 95, 95);
+}
+hr{
+  width:1000px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footerdiv{
+  margin-top: 30px;
+  background-color: grey;
+  height:50px;
+  text-align: center;
+  padding: 8px;
+}
+.textfooter{
+  text-align: center;
+}
+
+@media screen and (max-width: 786px) {
+.logo{
+ display: none;
+}
+.header{
+  width:80%;
+  left:10px;
+  font-size: 14px;
+}
+.ullist{
+  display:none;
+
+}
+.first{
+  width:6%;
+  height:10px;
+}
+.grey{
+  width:10%;
+  height:10px;
+}
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 250px; 
+  overflow: hidden; 
+  background-color: #f0f0f0;
+  margin-top: 30px;
+}
+.prev-button {
+  margin-left:100px;
+  
+}
+
+.next-button {
+  margin-left:-100px;
+  
+}
+.buttonbody{
+  width:230px;
+  height:20px;
+  margin-top:0px;
+}
+.textdiv{
+  height:300px;
+}
+.image-container img {
+  width:60%;
+  height:160%;
+  
+
+}
+hr{
+  width:280px;
+}
+.icon{
+  display: block;
+  margin-left: 80px;
+}
+
+}
